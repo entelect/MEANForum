@@ -1,0 +1,30 @@
+* Install node js
+* Verify node is registered in your path folder
+* Create folder for first project
+* Create index.js
+* 'use strict';
+* add console.log('hello world');
+* run node index.js
+* npm init
+* follow wizard
+* explain package json
+* npm start
+* make greetings.json
+* var greetings = require('./greetings.json');
+* console.log(greetings);
+* make random-greeter.js
+* explain singleton
+* module.exports = function () { ... }
+* get random greeting index
+* spit out a random greeting
+* name function getRandomGreeting
+* getRandomGreetings
+* npm install moment
+* package.json nothing changed
+* npm install moment --save
+* C:\Users\<username>\.npmrc
+* npm config set save true
+* npm config set save-exact true
+* add current time to greeting
+* format the date
+* .fromNow();

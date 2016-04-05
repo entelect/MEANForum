@@ -1,0 +1,36 @@
+MongoDB hosting:
+Mongo Lab: https://mongolab.com/plans/
+  - 500mb of free hosted storage on either AWS, GCP or Azure.
+
+  
+Site hosting:
+Google Cloud Platform: https://cloud.google.com/free-trial/docs/
+  - $300 worth of free trial credit, valid for a period 60 days for new accounts.
+  - An option to extend the credit for further 60 days after the trial ends.
+  - A gmail account is required.
+  - A credit card is required.
+  - Deploying the apps using Docker containers will probably be the easiest solution on GCP. https://cloud.google.com/container-engine/docs/
+  - It going to cost around $20 per month to run a single container deployment 24/7 each month.
+
+Amazon Web Services: https://aws.amazon.com/free/terms/
+  - The AWS Free Tier (12 Month Introductory Period).
+  - 750 hrs/month of free Amazon EC2 micro access.
+  - Is only available to new AWS customers.
+  - A credit card is required.
+  - They have multiple hosting solutions available. (I need to investigate further)
+  - http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html
+  - http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_docker.html
+
+Azure:
+  - Free one month trial. You get R2750 to spend on all Azure services.
+  - A credit card is required to sign up. To ensure a credit card is valid, Microsoft will charge your credit card R 13.75 when signing up for the Free Trial Offer. This is only an authorization hold, the charge will be reversed within 3-5 business days.
+  - There is a free tier for App Service. https://azure.microsoft.com/en-us/pricing/details/app-service/
+  - There are also timed usage restrictions on the free tier. (60 CPU minutes / day)
+  - A Microsoft account (@outlook.com, @hotmail.com ...) is required to sign up.
+
+Heroku: https://www.heroku.com/
+  - They have a free tier. https://www.heroku.com/pricing
+  - You apparently get 1 free web and 1 free worker instance.
+  - The app sleeps after 30 minutes of inactivity.
+  - The app must sleep 6 hours in a 24 hour period.
+  - It seems that you don't need a credit card to use the free tier. (I need to investigate further)

@@ -1,0 +1,30 @@
+* Voted on a project idea - Decided on building a blogging system from start to finish, includin hosting.
+* Free node hosting - Thiren to look at free hosting, otherwise Azure.
+* Find out how long our sessions are going to be?
+* Will there be dinner or just snacks?
+* Team dinner for the organisers after!
+* Git - assumed prior knowledge
+* Will be limited to Windows PC  for simplify and to speed up the sessions.
+* 2 facilitators per session.
+* Prinay to handle the Mongo side of things.
+* 1 set up mongo on the pc's together.
+	- getting it running as a service
+	- creating your first db
+	- creating collection 
+	- CRUD
+	- backup
+	- delete
+	- indexing
+	- upserts etc
+	- MongoChef
+	- Scripting
+	- gridfs
+	- mongo built in schema stuff and when to use it.
+* Nolan will cover the fundamentals
+* Node + express - Ryan & Sello
+* Angular - Justin & Thiren
+* Ideally content will be 1-3 slides then a prac based on those slides that builds on the project.
+* Probably will provide them with homework. can start during the session.
+* once the sessions are complete, they will have 1 extra month to finish the projects before Grading! 
+	- there will be some sort of judging + critique on the code & app perhaps with prizes.
+* Option to work in a group of 2 Max, only after the sessions are done, during the 1 extra month of post?

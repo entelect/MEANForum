@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="blerg">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+        <title>Mah Blerg</title>
+    </head>
+    <body>
+        <div class="container" ng-controller="NewPostController as vm">
+            <h1>Add a Post</h1>
+            <form ng-submit="vm.savePost()">
+                <label>Title</label>
+                <input class="form-control" ng-model="vm.post.title" />
+                <label>Body</label>
+                <textarea class="form-control" ng-model="vm.post.body"></textarea>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </form>
+        </div>
+        
+        <div class="container" ng-controller="PostsController as vm">
+            <h1>Mah Blerg</h1>
+            <div class="well" ng-repeat="post in vm.posts">
+                <h2>{{post.title}}</h2>
+                <p>{{post.body}}</p>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="posts-controller.js"></script>
+        <script src="new-post-controller.js"></script>
+        <script src="posts-api.js"></script>
+    </body>
+</html>

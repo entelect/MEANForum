@@ -1,0 +1,8 @@
+<h1>Add a Post</h1>
+<form name="vm.newPostForm" ng-submit="vm.savePost()" novalidate>
+    <label>Title</label>
+    <input required class="form-control" ng-model="vm.post.title" />
+    <label>Body</label>
+    <textarea required class="form-control" ng-model="vm.post.body"></textarea>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

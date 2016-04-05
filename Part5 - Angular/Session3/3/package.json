@@ -1,0 +1,15 @@
+{
+    "name": "blerg",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+        "gulp": "*",
+        "gulp-jshint": "*",
+        "jshint": "*",
+        "gulp-inject": "*",
+        "jasmine": "*",
+        "karma": "*",
+        "karma-jasmine": "*",
+        "karma-chrome-launcher": "*"
+    }
+}

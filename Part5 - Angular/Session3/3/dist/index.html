@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="blerg">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+        
+        <!-- inject:css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- endinject -->
+        <title>Mah Blerg</title>
+    </head>
+    <body>
+        <div class="navbar navbar-default">
+            <ul class="nav navbar-nav">
+                <li><a ui-sref="new-post">Create a new post</a></li>
+                <li><a ui-sref="view-posts">View All Posts</a></li>
+            </ul>
+        </div>
+        
+        <div class="container" ui-view>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+        <!-- inject:js -->
+        <script src="app.js"></script>
+        <script src="datepicker-directive.js"></script>
+        <script src="new-post-controller.js"></script>
+        <script src="post-directive.js"></script>
+        <script src="posts-api.js"></script>
+        <script src="posts-controller.js"></script>
+        <script src="route-config.js"></script>
+        <!-- endinject -->
+    </body>
+</html>

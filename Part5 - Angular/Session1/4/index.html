@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="blerg">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+        <title>Mah Blerg</title>
+    </head>
+    <body>
+        <div ng-controller="PostsController as vm">
+            <h1>Mah Blerg</h1>
+            <div class="well" ng-repeat="post in vm.posts">
+                <h2>{{post.title}}</h2>
+                <p>{{post.body}}</p>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+        <script src="app.js"></script>
+        <script src="posts-controller.js"></script>
+    </body>
+</html>

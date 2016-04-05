@@ -1,0 +1,18 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "playing around in node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "ryan kotzen",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "2.12.0"
+  }
+}

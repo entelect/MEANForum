@@ -1,0 +1,3 @@
+textarea.ng-invalid, input.ng-invalid, [datepicker].ng-invalid input {
+    border-color: red;
+}
