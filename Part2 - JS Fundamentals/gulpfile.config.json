@@ -1,0 +1,27 @@
+{
+    "directories": {
+        "build": {
+            "root": "build",
+            "css": "build/css",
+            "js": "build/js"
+        }
+    },
+    "filenames": {
+        "build": {
+            "vendor": {
+                "js": "vendor.js",
+                "css": "vendor.css"
+            },
+            "app": {
+                "js": "app.js"
+            },
+            "index": "index.html"
+        }
+    },
+    "files": {
+        "app": {
+            "index": "app/index.html",
+            "js": "app/**/*.js"
+        }
+    }
+}

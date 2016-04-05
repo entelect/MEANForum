@@ -1,0 +1,21 @@
+{
+  "name": "js-fundamentals",
+  "description": "js fundamentals",
+  "authors": [
+    "nolan pather <nolan@encentivize.co.za>"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jasmine-core": "jasmine#2.4.1"
+  },
+  "overrides": {
+    "jasmine-core": {
+      "main": [
+        "lib/jasmine-core/jasmine.js",
+        "lib/jasmine-core/jasmine.css",
+        "lib/jasmine-core/jasmine-html.js",
+        "lib/jasmine-core/boot.js"
+      ]
+    }
+  }
+}
