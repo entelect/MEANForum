@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Post",
+  "description": "A post - yes a post",
+  "type": "object",
+  "properties": {
+    "_id": {
+      "type": "string",
+      "title": "id"
+    },
+    "title": {
+      "title": "Post Title",
+      "type": "string"
+    },
+    "datePosted": {
+      "title": "Date Posted",
+      "type": "string",
+      "format": "date-time"
+    },
+    "author": {
+      "title": "Author",
+      "type": "Object",
+      "properties": {
+        "firstName": {
+          "title": "First Name",
+          "type": "string"
+        },
+        "surname": {
+          "title": "Surname",
+          "type": "string"
+        }
+      },
+      "required": [
+        "firstName"
+      ]
+    },
+    "views": {
+      "title": "Views",
+      "type": "number"
+    },
+    "tags": {
+      "title": "Tags",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "title",
+    "datePosted"
+  ]
+}
