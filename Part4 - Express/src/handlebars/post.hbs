@@ -1,0 +1,16 @@
+<p>
+    id: {{id}}<br/>
+    title:  {{title}}<br/>
+    datePosted:  {{datePosted}}<br/>
+    author: {{#with author}}
+    {{firstName}} {{surname}}
+    <br/>
+{{/with}}
+    views: {{views}}<br/>
+    Tags:
+<ul>
+    {{#each tags}}
+        <li>{{this}}</li>
+    {{/each}}
+</ul>
+</p>
