@@ -1,0 +1,19 @@
+{
+  "name": "mean-forum-express",
+  "version": "1.0.0",
+  "description": "That Killer Blog on Express",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sello",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "handlebars": "4.0.5",
+    "jsonschema": "1.1.0",
+    "morgan": "1.7.0"
+  }
+}
