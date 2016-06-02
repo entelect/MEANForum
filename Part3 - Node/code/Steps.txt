@@ -8,7 +8,7 @@
 * npm init
 * follow wizard
 * explain package json
-* npm start
+* npm start 
 * make greetings.json
 * var greetings = require('./greetings.json');
 * console.log(greetings);
