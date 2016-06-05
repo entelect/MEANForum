@@ -35,16 +35,16 @@ router.get("/lots-of-pre-processing", function (req, res, next) {
         req.responseMessage = "First middleware here - ";
         next();
     }, function (req, res, next) {
-        req.responseMessage += "Second middleware here";
+        req.responseMessage += "Second middleware here - ";
         next();
     },
     function (req, res) {
-        res.send("3rd middleware returning the result - " + req.responseMessage);
+        res.send(req.responseMessage += "3rd middleware returning the result");
     });
 
 router.get("/return-error", function (req, res, next) {
 
-    //try to do something that fails!
+    //Does something that fails!
 
     next({message: "Stop asking for errors!!", status: 400});
 });
@@ -58,4 +58,3 @@ router.get("/:postId", function (req, res, next) {
 
 
 module.exports = router;
-
