@@ -1,11 +1,9 @@
 "use strict";
 
-module.exports = function (err, req, res, next) {
+module.exports = function (req, res) {
     console.log("handling");
-    if (err.status === 404) {
-        return res.status(404).json({message: err.message});
-    }
-    next(err);
+    return res.status(404).json({message: "page not found"});
+
 };
 
 
