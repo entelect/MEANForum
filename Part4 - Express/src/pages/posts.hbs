@@ -1,0 +1,22 @@
+{{#each this.posts}}
+    <div style="width:25%;float:left">
+        id: {{id}}<br/>
+        title:  {{title}}<br/>
+        datePosted:  {{datePosted}}<br/>
+        author: {{#with author}}
+        {{firstName}} {{surname}}
+        <br/>
+    {{/with}}
+        views: {{views}}<br/>
+        Tags:
+        <ul>
+            {{#each tags}}
+                <li>{{.}}</li>
+            {{/each}}
+        </ul>
+    </div>
+{{/each}}
+
+
+
+{{> footer}}

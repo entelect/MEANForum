@@ -13,6 +13,7 @@
     "cors": "2.7.1",
     "express": "4.13.4",
     "handlebars": "4.0.5",
+    "hbs": "4.0.0",
     "jsonschema": "1.1.0",
     "morgan": "1.7.0"
   }

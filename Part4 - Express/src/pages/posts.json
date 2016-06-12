@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1036,
+    "title": "The good life",
+    "datePosted": "2016-03-03T12:23:00Z",
+    "author": {
+      "firstName": "Sello",
+      "surname": "Mkantjwa"
+    },
+    "views": 25,
+    "tags": [
+      "home",
+      "green"
+    ]
+  },
+  {
+    "id": 1037,
+    "title": "Express is great",
+    "datePosted": "2016-06-03T12:23:00Z",
+    "author": {
+      "firstName": "Sello",
+      "surname": "Mkantjwa"
+    },
+    "views": 800,
+    "tags": [
+      "express",
+      "code"
+    ]
+  }
+]
